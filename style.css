@@ -1,0 +1,24 @@
+/* تنسيقات عامة */
+body { background: #f0f2f5; font-family: 'Segoe UI', Tahoma, sans-serif; }
+.card { border-radius: 12px; border: none; }
+
+/* حالة المعدة التي لم تُفحص */
+.not-inspected { 
+    border-right: 6px solid #dc3545 !important; 
+    margin-bottom: 10px;
+    background: white;
+}
+
+/* حالة المعدة التي تم فحصها اليوم */
+.inspected { 
+    border-right: 6px solid #198754 !important; 
+    background-color: #f1fcf4 !important;
+    opacity: 0.85;
+    margin-bottom: 10px;
+}
+
+.inspected h6 { color: #155724; text-decoration: line-through; }
+
+/* أزرار الحذف */
+.btn-delete { color: #dc3545; font-size: 0.8rem; cursor: pointer; border: none; background: none; }
+.btn-delete:hover { text-decoration: underline; }
